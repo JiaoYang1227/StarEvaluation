@@ -19,9 +19,7 @@
     [_starView setImagesDeselected:@"unselectedImage" partlySelected:@"partlySelectedImage" fullSelected:@"fullySelectedImage" andJYRatingChangedBlock:^(float newRating) {
         NSLog(@"%@",[NSString stringWithFormat:@"Rating is: %1.1f", newRating]);
     }];
-    
-//     分数的
-    
+    //设置默认分数
     [_starView displayRating:0.5];
 
 }
